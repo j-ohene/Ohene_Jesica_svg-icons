@@ -16,11 +16,14 @@ body, h1, h2, h3, p {
     width: 50%;
 } 
 /*svg IDS*/
-
-#orange:hover #orange-pulp {
+#orange :hover{
     transform: rotate(30deg);
     transform-origin:center;
-    transition: 0.5s;
+    transition: 0.5s; 
+}
+
+#orange:hover #orange-pulp {
+    transition: 0.5s; 
     fill:rgb(203, 115, 129)
     }
 
@@ -31,5 +34,19 @@ body, h1, h2, h3, p {
         fill: pink;
         }
 
-#orange-crust{}
+#orange:hover #orange-crust{
+    transform: rotate(30deg);
+    transform-origin:center;
+    transition: 0.5s;
+}
 
+#orange:hover #orange-crust_00000027606938720943960960000008965656755449224121_{
+    transform: rotate(30deg);
+    transform-origin:center;
+    transition: 0.5s; 
+}
+#orange:hover #shadow{
+transform: rotate(30deg);
+transform-origin:center;
+transition: 0.5s; 
+}
