@@ -3,7 +3,15 @@
     display: none;
 }
 
-body{
+body, h1, h2, h3, p {
     font-family: 'Concert One', cursive;
     background-color: rgb(224, 212, 146);
 }
+.svg-container {
+    display: flex;
+    flex-direction: row;
+
+}
+.svg-container div {
+    width: 50%;
+} 
