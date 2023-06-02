@@ -13,18 +13,14 @@ body, h1, h2, h3, p {
 
 }
 .svg-container div {
-    width: 50%;
+    width: 25%;
+    padding: 30px
 } 
 /*svg IDS*/
-#orange :hover{
-    transform: rotate(30deg);
-    transform-origin:center;
-    transition: 0.5s; 
-}
 
 #orange:hover #orange-pulp {
     transition: 0.5s; 
-    fill:rgb(203, 115, 129)
+    fill:rgb(203, 115, 129);
     }
 
 #orange:hover #orange-pulp-light {
@@ -40,7 +36,7 @@ body, h1, h2, h3, p {
     transition: 0.5s;
 }
 
-#orange:hover #orange-crust_00000027606938720943960960000008965656755449224121_{
+#orange:hover #orange-crust_00000027606938720943960960000008965656755449224121_ {
     transform: rotate(30deg);
     transform-origin:center;
     transition: 0.5s; 
@@ -50,3 +46,33 @@ transform: rotate(30deg);
 transform-origin:center;
 transition: 0.5s; 
 }
+
+
+#grapefruit:hover #pulp{
+    fill:rgb(143, 27, 69);
+
+}
+#grapefruit:hover #light-pulp{
+    fill:rgb(233, 189, 218);
+    transform:scale(10%);
+    
+}
+#grapefruit:hover #rind_00000160158665487179808570000001998746016662261681_ {
+    fill:rgb(244, 226, 193);
+    transition: ease 0.7s;
+}
+
+#cart:hover #grid {
+    transition: 0.4s;
+    fill: grey;
+   }
+
+#passionfruit:hover #pulp{
+    fill:antiquewhite;
+    transform: rotate(20deg);
+    transform-origin: middle;
+}
+#passionfruit:hover #seeds{
+    fill:rgb(158, 111, 111);
+ transform: rotate(20deg);
+ transform-origin: middle;}

@@ -8,6 +8,13 @@
 	.st2{fill:#0E681D;stroke:#385E41;stroke-miterlimit:10;}
 	.st3{fill:#2C5634;}
 	.st4{fill:none;stroke:#594427;stroke-miterlimit:10;}
+
+	?/*custom css*/
+	
+	#Layer_2:hover{
+	transform: rotate 20deg;
+	}
+
 </style>
 <g id="Layer_2">
 	<g>
