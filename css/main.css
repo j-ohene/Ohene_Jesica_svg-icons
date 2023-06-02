@@ -1,0 +1,9 @@
+
+.hidden{
+    display: none;
+}
+
+body{
+    font-family: 'Concert One', cursive;
+    background-color: rgb(224, 212, 146);
+}
