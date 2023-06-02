@@ -15,3 +15,21 @@ body, h1, h2, h3, p {
 .svg-container div {
     width: 50%;
 } 
+/*svg IDS*/
+
+#orange:hover #orange-pulp {
+    transform: rotate(30deg);
+    transform-origin:center;
+    transition: 0.5s;
+    fill:rgb(203, 115, 129)
+    }
+
+#orange:hover #orange-pulp-light {
+        transform: rotate(30deg);
+        transform-origin:center;
+        transition: 0.5s;
+        fill: pink;
+        }
+
+#orange-crust{}
+
